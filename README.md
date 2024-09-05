@@ -50,6 +50,8 @@ The example script appeared to be overkill and multiple queires where being gene
 It was determined that a simple querythat aggregated and sumed the salary is all that is required,
 
 ## Solution
+Note: all logic is based on SQL Server
+
 The following was identified as what would be required to generate a query that would provide the top 5 Department ID entries based on the maximum [sum] salaries for the department ID
 
 - The following is a script containing a CTE to produce the expected result
