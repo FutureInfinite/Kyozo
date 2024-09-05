@@ -99,6 +99,7 @@ The previous script uses the aspect nested queries. The inner query is what actu
     - This was done by mimimizing the number of operations / selections being done
       - have reduced the query to use approximately 2 selections
 - The example script was overworked and prerformed operations that were really not necessary - requiring multiple select operations 
+  - the example script also appeared to only produce a signel department Id - and not the requested 5
 - One of the big aspects in DB design is to optimize query retrieval
   - One of the biggest features of relational DB systems is the use of indexes that provide ordering of specific parts of the data model
     - This was done in the DB specifically on the Department ID (IX_employee_department) - as this is the central piece of data that the query would be based on - and retrieving this data as quickly as possible would be achieved using the index
