@@ -35,7 +35,7 @@ could you please provide 2 queries:
 ## Preparation
 
  - First goal will be to prepare a [SQL Server] DB with the specified data.
- - To be conformant with  the example query it would detail that indexing 
+ - To be conformant with  the example query it would detail that the data model is: 
    - on department IDD
    - could also put an index on salary - but the explicit query is not related to specific salaries but aggregation of salaries
  - There is a DB Script to create the DB and table
