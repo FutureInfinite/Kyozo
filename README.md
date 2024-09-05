@@ -76,6 +76,8 @@ The following was identified as what would be required to generate a query that 
 - The previous script has a CTE that generates a simple department / salary grouping. This can then be used to generate results on department ID and salary
 
 ---
+- The following is a script to produce the expected result
+ 
 		select 
 			department_id
 		from
