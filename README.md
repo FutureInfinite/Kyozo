@@ -79,7 +79,7 @@ The following was identified as what would be required to generate a query that 
 			order by salary desc	
 		) T1
 
-The previous script uses the aspect nested queries. The inner query is what actually retrieves the result and the outer query finalized to the requested result.
+The previous script uses aspects of nested queries. The inner query is what actually retrieves the result and the outer query finalized to the requested result.
 
 ---
 
