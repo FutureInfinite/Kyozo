@@ -1,4 +1,4 @@
-# Kyozo
+# Kyozou
 
 •	The following has been requested
 There is a classic employee table id, department_id, salary - all numeric fields. id - primary key
